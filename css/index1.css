@@ -1,0 +1,419 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
+[hidefocus],
+summary {
+  outline: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: 100%;
+}
+sup,
+sub {
+  font-size: 83%;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+q:before,
+q:after {
+  content: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label,
+summary {
+  cursor: default;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: bold;
+}
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+  font: 12px/1.14 arial;
+  color: #333;
+  outline: 0;
+}
+body {
+  background: #fff;
+}
+/* a,a:hover{color:#333;} */
+html,
+body {
+  background: #f5f5f5;
+}
+.box .top {
+  width: 100%;
+  height: 1.17333333rem;
+  background-color: #1b1a20;
+}
+.box .top i:first-child {
+  margin-left: 0.29333333rem;
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.41333333rem;
+  background-image: url("../images/fanhui.png");
+  background-size: 0.28rem 0.41333333rem;
+  margin-bottom: -0.06666667rem;
+}
+.box .top i:last-child {
+  display: inline-block;
+  width: 0.50666667rem;
+  height: 0.12rem;
+  background-image: url("../images/gengduo.png");
+  background-size: 0.50666667rem 0.12rem;
+  margin-bottom: 0.06666667rem;
+  margin-left: 3.05333333rem;
+}
+.box .top span {
+  color: #ffffff;
+  font-size: 0.41333333rem;
+  margin-left: 0.12rem;
+  line-height: 1.17333333rem;
+}
+.box .top h4 {
+  font-weight: 400;
+  font-size: 0.46666667rem;
+  color: #ffffff;
+  margin-left: 2.48rem;
+  line-height: 1.17333333rem;
+  display: inline-block;
+}
+.box .personal {
+  width: 100%;
+  background-image: url("../images/background.png");
+  background-size: 15.14666667rem 8.53333333rem;
+  color: #f1eff7;
+  padding-top: 0.37333333rem;
+  padding-bottom: 0.48rem;
+}
+.box .personal .personal-div {
+  padding-left: 0.46666667rem;
+  position: relative;
+}
+.box .personal .personal-div > i {
+  display: inline-block;
+  width: 1.64rem;
+  height: 1.64rem;
+  border-radius: 50%;
+  background-image: url("../images/header.png");
+  background-size: 1.64rem 1.64rem;
+  background-repeat: no-repeat;
+}
+.box .personal .personal-div .dv1 {
+  position: absolute;
+  top: 0;
+  left: 2.50666667rem;
+}
+.box .personal .personal-div .dv1 h4 {
+  font-size: 0.42666667rem;
+  margin-bottom: 0.34666667rem;
+}
+.box .personal .personal-div .dv1 p {
+  font-size: 0.32rem;
+}
+.box .personal .personal-div .dv1 p:last-child {
+  margin-top: 0.33333333rem;
+}
+.box .personal .personal-div .dv2 {
+  position: absolute;
+  top: 0;
+  right: 1.33333333rem;
+  text-align: center;
+}
+.box .personal .personal-div .dv2 i {
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.48rem;
+  background-image: url("../images/erweima.png");
+  background-size: 0.48rem 0.48rem;
+  margin-bottom: 0.25333333rem;
+  margin-left: 0.13333333rem;
+}
+.box .personal .personal-div .dv2 > p {
+  font-size: 0.34666667rem;
+}
+.box .personal .personal-div .dv3 {
+  position: absolute;
+  top: 0;
+  right: 0.33333333rem;
+}
+.box .personal .personal-div .dv3 i {
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.48rem;
+  background-image: url("../images/pen.png");
+  background-size: 0.48rem 0.48rem;
+  margin-bottom: 0.25333333rem;
+  margin-left: 0.13333333rem;
+}
+.box .personal .personal-div .dv3 > p {
+  font-size: 0.34666667rem;
+}
+.box .personal > p {
+  padding-left: 0.6rem;
+  font-size: 0.34666667rem;
+  margin-top: 0.53333333rem;
+}
+.box .substance {
+  width: 100%;
+  margin-top: 0.30666667rem;
+  padding: 0 0.45333333rem;
+  box-sizing: border-box;
+}
+.box .substance div {
+  background-color: #ffffff;
+  border: 1px solid #919191;
+}
+.box .substance .div1 {
+  margin-bottom: 0.29333333rem;
+  padding: 0.49333333rem 0 0.49333333rem 0.54666667rem;
+}
+.box .substance .div1 p {
+  font-size: 0.32rem;
+  color: #414141;
+}
+.box .substance .div1 p:first-child {
+  margin-bottom: 0.34666667rem;
+}
+.box .substance .div2 {
+  margin-bottom: 0.29333333rem;
+  font-size: 0;
+  padding-top: 0.45333333rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.box .substance .div2 a {
+  display: inline-block;
+  width: 25%;
+}
+.box .substance .div2 a i {
+  display: inline-block;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  background-image: url("../images/house.png");
+  background-size: 0.53333333rem 0.53333333rem;
+  margin-bottom: 0.32rem;
+}
+.box .substance .div2 a p {
+  margin-bottom: 0.34666667rem;
+  font-size: 0.32rem;
+  color: #414141;
+}
+.box .substance .div2 a:first-child {
+  margin-left: 0;
+}
+.box .substance .div3 {
+  padding-left: 0.53333333rem;
+  padding-top: 0.46666667rem;
+  padding-bottom: 0.46666667rem;
+}
+.box .substance .div3 i:first-child {
+  margin-right: 0.37333333rem;
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.53333333rem;
+  background-image: url("../images/sanjiao.png");
+  background-size: 0.4rem 0.53333333rem;
+}
+.box .substance .div3 span {
+  display: inline-block;
+  font-size: 0.41333333rem;
+}
+.box .substance .div3 i:last-child {
+  margin-left: 3.81333333rem;
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.42666667rem;
+  background-image: url("../images/right.png");
+  background-size: 0.24rem 0.42666667rem;
+}
+.box .bottom {
+  border-top: 2px solid #dadada;
+  width: 100%;
+  font-size: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 0.24rem;
+  padding-bottom: 0.22666667rem;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.box .bottom a:first-child {
+  width: 25%;
+  display: inline-block;
+}
+.box .bottom a:first-child i {
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.37333333rem;
+  background-image: url("../images/hot.png");
+  background-size: 0.36rem 0.37333333rem;
+}
+.box .bottom a:first-child p {
+  font-size: 0.32rem;
+  color: #000;
+  margin-top: 0.14666667rem;
+}
+.box .bottom a:last-child {
+  width: 25%;
+  display: inline-block;
+}
+.box .bottom a:last-child i {
+  display: inline-block;
+  width: 0.34666667rem;
+  height: 0.37333333rem;
+  background-image: url("../images/people.png");
+  background-size: 0.34666667rem 0.37333333rem;
+}
+.box .bottom a:last-child p {
+  font-size: 0.32rem;
+  color: #ff8649;
+  margin-top: 0.14666667rem;
+}
+.box .bottom a:nth-child(2) {
+  width: 25%;
+  display: inline-block;
+}
+.box .bottom a:nth-child(2) i {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.34666667rem;
+  background-image: url("../images/listen.png");
+  background-size: 0.4rem 0.34666667rem;
+}
+.box .bottom a:nth-child(2) p {
+  font-size: 0.32rem;
+  color: #000;
+  margin-top: 0.14666667rem;
+}
+.box .bottom a:nth-child(3) {
+  width: 25%;
+  display: inline-block;
+}
+.box .bottom a:nth-child(3) i {
+  display: inline-block;
+  width: 0.37333333rem;
+  height: 0.37333333rem;
+  background-image: url("../images/light.png");
+  background-size: 0.37333333rem 0.37333333rem;
+}
+.box .bottom a:nth-child(3) p {
+  font-size: 0.32rem;
+  color: #000;
+  margin-top: 0.14666667rem;
+}
